@@ -18,7 +18,8 @@ class RandomNumberGame extends ControllerBase{
     }
 
 	public function propose(){
-		
+
+	    
 		$this->loadView('RandomNumberGame/propose.html');
 
 	}
